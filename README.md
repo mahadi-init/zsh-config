@@ -1,7 +1,19 @@
 # Zensh
 
-This is the zsh configuration for the Dreams of Autonomy YouTube Channel.
+zsh config
 
-This configuration prioritizes zen and calm in order to reduce distractions and 
-maintain momentum when working inside of the terminal.
+## first install zsh
 
+`sudo pacman -S zsh`
+
+## set zsh as default
+
+`chsh ${username}`
+
+## install fzf
+
+`sudo pacman -S fzf`
+
+## install zoxide
+
+`sudo pacman -S zoxide`
